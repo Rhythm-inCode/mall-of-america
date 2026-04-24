@@ -34,7 +34,7 @@ The goal: within 10 seconds, a prospect feels — *"I need to be here."*
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/mall-of-america.git
+git clone https://github.com/Rhythm-inCode/mall-of-america
 cd mall-of-america
 
 # Install dependencies
