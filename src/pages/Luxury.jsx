@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import luxuryBg from '../assets/videos/luxury-bg.mp4'
 import aiLuxury from '../assets/images/ai-luxury.jpg'
 import { useResponsive } from '../hooks/useResponsive'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const luxuryBg = '/videos/luxury-bg.mp4'
 
 const pillars = [
   { num: '01', title: 'Curated Access', body: "Only brands that meet MoA's exclusivity criteria earn placement in the Luxury Wing. Your co-tenants define your company." },

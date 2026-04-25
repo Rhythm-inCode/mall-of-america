@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import eventsBg from '../assets/videos/events-bg.mp4'
 import { useResponsive } from '../hooks/useResponsive'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const eventsBg = '/videos/events-bg.mp4'
 
 const tickerEvents = [
   'K-Pop Night Live — 12,000 Attendees', 'Nike Air Max Launch — Brand Activation',

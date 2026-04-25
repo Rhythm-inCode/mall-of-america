@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { gsap } from 'gsap'
-import introBg from '../assets/videos/intro-bg.mp4'
 import { useResponsive } from '../hooks/useResponsive'
 
+
+const introBg = '/videos/intro-bg.mp4'
 const beats = [
   { number: '40M+', label: 'visitors every year' },
   { number: '500+', label: 'brands. one address.' },

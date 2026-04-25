@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import entertainmentBg from '../assets/videos/entertainment-bg.mp4'
 import aiEntertainment from '../assets/images/ai-entertainment.jpg'
 import { useResponsive } from '../hooks/useResponsive'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const entertainmentBg = '/videos/entertainment-bg.mp4'
 
 const zones = [
   { id: 1, name: 'Nickelodeon Central', rides: 8, x: '48%', y: '38%', color: '#ff6600' },

@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import diningBg from '../assets/videos/dining-bg.mp4'
 import { useResponsive } from '../hooks/useResponsive'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const diningBg = '/videos/dining-bg.mp4'
 
 const restaurants = [
   { name: 'The Cove', type: 'Seafood & Raw Bar', desc: 'Coastal fine dining — oysters, crudo, and whole-fish preparations in a candlelit setting.', tag: 'Fine Dining' },

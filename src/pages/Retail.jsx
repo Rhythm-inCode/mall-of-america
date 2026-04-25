@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import retailBg from '../assets/videos/retail-bg.mp4'
 import { useResponsive } from '../hooks/useResponsive'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const retailBg = '/videos/retail-bg.mp4'
 
 const tenants = [
   { name: 'Nike', category: 'Sportswear', detail: 'Flagship store — 3 floors of exclusive drops, personalization studios, and member-only launches.' },
