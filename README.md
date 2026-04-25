@@ -2,7 +2,7 @@
 
 > A cinematic, browser-based sales tool built for retail tenants, brand sponsors, and event partners. Designed to replace fragmented pitch decks with a single immersive experience.
 
-**Live URL:** [Add Vercel URL here]  
+**Live URL:** https://mall-of-america-snowy.vercel.app/  
 **Built for:** Liat.ai Screening Assignment
 
 ---
